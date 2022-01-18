@@ -1,5 +1,5 @@
 {
-  "name": "node-db1-project",
+  "name": "db1-project",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
     "resetdb": "knex migrate:rollback && knex migrate:latest && knex seed:run"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.2",
     "knex": "^0.95.14",
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^4.2.0"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
@@ -25,5 +25,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BloomInstituteOfTechnology/node-db1-project.git"
-  }
+  },
+  "description": "## Introduction",
+  "bugs": {
+    "url": "https://github.com/BloomInstituteOfTechnology/node-db1-project/issues"
+  },
+  "homepage": "https://github.com/BloomInstituteOfTechnology/node-db1-project#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
